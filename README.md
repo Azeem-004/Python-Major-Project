@@ -62,17 +62,22 @@ Then:
 ```
 Python-Major-Project-main/
 └── Student Grade Calculator Using Python/
-    └── Student_Grade_Calculator.ipynb    # Main program (Jupyter Notebook)
+    ├── Student_Grade_Calculator.ipynb    # Main program (Jupyter Notebook)
+    └── Project Report/
+        ├── Student_Grade_Calculator_Python_Project_Report.docx
+        └── Student_Grade_Calculator_Python_Project_Report.pdf
 ```
 
 The notebook is organised into sections: imports and configuration, data loading and saving, grade calculation, add, view, search and delete operations, the main menu loop, and the run cell.
+
+The `Project Report/` folder contains the written project report in Word (`.docx`) and PDF formats.
 
 ## 🛠️ Requirements
 
 - 🐍 Python 3.x
 - 📓 Jupyter Notebook or JupyterLab, or any editor that can run Python
 
-No third-party libraries are needed. The program uses only the standard library modules `json` and `os`.
+No third-party libraries are needed to run the program. It uses only the standard library modules `json` and `os`. Installing Jupyter is only needed if you use Option 1 below.
 
 **Technologies used:** Python 3, Jupyter Notebook, JSON file storage
 
@@ -226,5 +231,3 @@ By working through this project, you can practise:
 **Mohammad Azeem**
 
 🔗 [GitHub: Azeem-004](https://github.com/Azeem-004)
-
-
